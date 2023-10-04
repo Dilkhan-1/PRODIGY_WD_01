@@ -11,15 +11,34 @@
 <body>
     <nav>
         <ul>
-            <li><a href="#top">Home</a></li>
+            <li><a href="#home">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
     </nav>
-    <section id="top">
-        <h2>Welcome to our website!</h2>
-    </section>
+
+    <section id="banner"><a name="home"></a>
+		<div class="wrapper">
+			<h2>Webwise</h2>
+			<p class="subtitle">Welcome to our Website</p>
+			<div class="buttons">
+				<a href="#" class="button-1">Try Now</a>
+				<a href="#" class="button-2">Learn More</a>
+			</div>
+		</div>
+	</section>
+
+    <section class="video-section">	
+		<div class="wrapper">
+			<h3>What is Webwise?</h3>
+			<p class="subtitle">Watch our promotional video</p>
+			<video width="790" src="video.mp4" poster="images/video-poster.jpg" onclick="this.play();" controls preload>
+				<p>Video playback unsupported</p>
+			</video>
+			<a href="#" class="button-1">Begin</a>
+		</div>
+	</section>
     
     <div class="product-container">
         <div class="product-card">

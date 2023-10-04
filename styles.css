@@ -16,6 +16,7 @@ h2{
 
 /* Nav Bar Style  */
 nav {
+    position: fixed;
     background-color: #333;
     color: #fff;
     padding: 10px;
@@ -40,6 +41,28 @@ nav a {
 
 nav a:hover {
     color: #92f436;
+}
+
+/*Video Section*/
+
+.video-section {
+	text-align: center;
+	padding: 100px 0;
+	background: #fff;
+}
+
+.video-section p.subtitle {
+	color: #5dae87;
+	font-size: 17px;
+}
+
+.video-section video {
+	margin-top: 80px;
+}
+
+.video-section .button-1, .video-section .button-2 {
+	display: block;
+	margin: 60px auto 0 auto;
 }
 
 /* Product Cards Style  */
