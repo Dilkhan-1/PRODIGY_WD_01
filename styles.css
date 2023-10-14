@@ -11,7 +11,7 @@ body {
 
 #bg {
     background-image: url(./assets/bg.jpg);
-    background-size: 100% 100vh; /* Make the image fit within the viewport */
+    background-size: 100% auto; /* Make the image fit within the viewport */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat;
     margin: 0;
@@ -23,15 +23,16 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 50px;
 }
 
 header img {
-    width: 100px;
+    width: 80px;
 }
 
 header a{
     text-decoration:none ;
+    color: #fff;
 }
 
 nav {
@@ -51,6 +52,9 @@ nav li {
     margin: 0 20px;
 }
 
+nav li a:hover {
+    color: rgb(153, 127, 255);
+}
 section {
     text-align: center;
     align-self: center;
@@ -59,29 +63,36 @@ section {
 }
 
 section h1 {
-    font-size: 36px;
+    font-size: 48px;
+    margin: 0;
 }
 
 section p {
     font-size: 18px;
+    margin-bottom: 50px;
 }
 
 .btn {
-    background-color: #007BFF;
+    background-color:rgb(153, 127, 255);
     color: #fff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     font-size: 18px;
     cursor: pointer;
+    height: 50px;
+    width: 15%;
+    margin-top: 100px;
 }
 
+.btn:hover {
+    background-color: rgba(153, 127, 255, .6);
+}
 a {
     background: transparent;
-}
-
-a:focus {
-    outline: thin dotted;
+    text-decoration: none;
+    outline: none;
+    transition: color 0.2s;
 }
 
 .content {
@@ -89,6 +100,7 @@ a:focus {
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px;
+    padding-top: 0px;
 }
 .card {
     background-color: #f8f9fa;
@@ -96,6 +108,7 @@ a:focus {
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
+    margin: 20px auto;
     padding: 20px;
     width: 100%;
     max-width: 400px;
@@ -107,7 +120,7 @@ a:focus {
     margin-bottom: 20px;
 }
 .footer {
-    background-color: #007BFF;
+    background-color:rgb(153, 127, 255);
     color: white;
     padding: 20px;
     text-align: center;
