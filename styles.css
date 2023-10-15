@@ -11,6 +11,7 @@ body {
 
 #bg {
     background-image: url(./assets/bg.jpg);
+    opacity: 0.9910;
     background-size: 100% auto; /* Make the image fit within the viewport */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat;
@@ -38,6 +39,7 @@ header a{
 nav {
     display: flex;
     align-items: center;
+    
 }
 
 nav ul {
@@ -49,12 +51,17 @@ nav ul {
 }
 
 nav li {
-    margin: 0 20px;
+    margin: 0 15px;
+    display: flex;
+    align-self: center;
 }
 
 nav li a:hover {
     color: rgb(153, 127, 255);
+    border-radius: 6px;
+    background-size: 50px;
 }
+
 section {
     text-align: center;
     align-self: center;
@@ -77,8 +84,9 @@ section p {
     color: #fff;
     padding: 10px 20px;
     border: none;
-    border-radius: 5px;
-    font-size: 18px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
     cursor: pointer;
     height: 50px;
     width: 15%;
@@ -86,8 +94,23 @@ section p {
 }
 
 .btn:hover {
-    background-color: rgba(153, 127, 255, .6);
+    background-color: rgba(153, 127, 255, .6); 
 }
+
+.contact{
+    background-color:rgb(153, 127, 255);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: medium;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.contact:hover{
+    background-color:rgba(153, 127, 255,.6) ;
+}
+
 a {
     background: transparent;
     text-decoration: none;
@@ -98,8 +121,10 @@ a {
 .content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 20px;
+    margin: auto 70px;
+    background-color: red;
     padding-top: 0px;
 }
 .card {
@@ -107,8 +132,7 @@ a {
     color: black;
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-    margin: 20px auto;
+    margin: 10px auto;
     padding: 20px;
     width: 100%;
     max-width: 400px;
