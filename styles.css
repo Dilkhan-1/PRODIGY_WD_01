@@ -133,7 +133,16 @@ a {
     font-size: 24px;
     padding-top: 10px;
 }
-#team div, #services div {
+
+#price{
+    color: black;
+    font-weight: bold;
+    margin: 20px;
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+#team div, #services div, #price div {
     display: flex;
     justify-content: center;
 }
