@@ -10,10 +10,11 @@ body {
 }
 
 #bg {
+    /* display: grid; */
     background-image: url(./assets/bg.jpg);
     opacity: 0.9910;
-    background-size: 100% auto; /* Make the image fit within the viewport */
-    background-position: center; /* Center the background image */
+    background-size: 100% auto; 
+    background-position: center;
     background-repeat: no-repeat;
     margin: 0;
     padding: 0;
@@ -85,7 +86,7 @@ section p {
     color: #fff;
     padding: 10px 20px;
     border: none;
-    border-radius: 30px;
+    border-radius: 10px;
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
@@ -119,15 +120,16 @@ a {
     transition: color 0.2s;
 }
 
-#about{
+/* #about{
     color: rgb(153, 127, 255);
     font-weight: bold;
     margin: 0px;
     font-size: 24px;
     padding-top: 20px;
-}
+} */
+
 #about p{
-    color: rgb(50, 49, 54);
+    color: #eceff1;
     font-weight: normal;
     padding: 0px 17em;
     line-height: normal;
@@ -172,7 +174,7 @@ a {
     padding-top: 0px;
     height: 60vh;
 }
-.card {
+/* .card {
     background-color: #f0eff4;
     color: rgb(153, 127, 255);
     border-radius: 5px;
@@ -181,9 +183,9 @@ a {
     padding: 20px;
     width: 50vh; 
     max-width: 400px;
-}
+} */
 
-.card img {
+/* .card img {
     border-radius: 5px;
     height: 30vh;
     margin-top: 20px;
@@ -195,7 +197,7 @@ a {
 }
 .card p {
     margin-bottom: 10px;
-}
+} */
 .footer {
     background-color:rgb(153, 127, 255);
     color: white;
