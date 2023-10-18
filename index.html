@@ -20,7 +20,6 @@
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About Us</a></li>
             <li><a href="#services">Services</a></li>
-            <li><a href="#team">Our Team</a></li>
             <li><a href="#price">Pricing</a></li>
             <li><button class="contact">Contact Us</button></li>
           </ul>
@@ -36,6 +35,7 @@
 
     <main class="main flow">
 
+      <!-- About section  -->
       <section id="about">
         <div>
           <h1 class="main__heading">About Us</h1>
@@ -53,12 +53,14 @@
         </div>
       </section>
 
-      <h1 class="main__heading">Services</h1>
-      <div class="main__cards cards">
+      <!-- Services section  -->
+      <h1 id="services" class="main__heading">Services</h1>
+      <div class="cards">
         <div class="cards__inner">
-          <div class="cards__card card">
-            <h2 class="card__heading">Basic</h2>
-            <p class="card__price">$9.99</p>
+
+          <div class="card">
+            <h2 class="card__heading">Website Development</h2>
+            <p class="card__price"></p>
             <ul role="list" class="card__bullets flow">
               <li>Access to standard workouts and nutrition plans</li>
               <li>Email support</li>
@@ -66,19 +68,42 @@
             <a href="#basic" class="card__cta cta">Get Started</a>
           </div>
     
-          <div class="cards__card card">
-            <h2 class="card__heading">Pro</h2>
+          <div class="card">
+            <h2 class="card__heading">App Development</h2>
             <p class="card__price">$19.99</p>
             <ul role="list" class="card__bullets flow">
               <li>Access to advanced workouts and nutrition plans</li>
               <li>Priority Email support</li>
               <li>Exclusive access to live Q&A sessions</li>
             </ul>
-            <a href="#pro" class="card__cta cta">Upgrade to Pro</a>
+            <a href="#pro" class="card__cta cta">Get Started</a>
+          </div>
+          
+    
+          <div class="card">
+            <h2 class="card__heading">UI/UX Design</h2>
+            <p class="card__price">$19.99</p>
+            <ul role="list" class="card__bullets flow">
+              <li>Access to advanced workouts and nutrition plans</li>
+              <li>Priority Email support</li>
+              <li>Exclusive access to live Q&A sessions</li>
+            </ul>
+            <a href="#pro" class="card__cta cta">Get Started</a>
           </div>
     
-          <div class="cards__card card">
-            <h2 class="card__heading">Ultimate</h2>
+          <div class="card">
+            <h2 class="card__heading">Graphic Designing</h2>
+            <p class="card__price">$19.99</p>
+            <ul role="list" class="card__bullets flow">
+              <li>Access to advanced workouts and nutrition plans</li>
+              <li>Priority Email support</li>
+              <li>Exclusive access to live Q&A sessions</li>
+            </ul>
+            <a href="#pro" class="card__cta cta">Get Started</a>
+          </div>
+
+          <div class="card">
+            <h2 class="card__heading">Logo Designing</h2>
             <p class="card__price">$29.99</p>
             <ul role="list" class="card__bullets flow">
               <li>Access to all premium workouts and nutrition plans</li>
@@ -86,180 +111,60 @@
               <li>1-on-1 virtual coaching session every month</li>
               <li>Exclusive content and early access to new features</li>
             </ul>
-            <a href="#ultimate" class="card__cta cta">Go Ultimate</a>
+            <a href="#ultimate" class="card__cta cta">Get Started</a>
           </div>
         </div>
         <div class="overlay cards__inner"></div>
       </div>
 
-      <!--
-      <section>
-        <div class="container">
-          <div class="card">
-            <h3>One click to a safer internet</h3>
-            <p>
-              Strong encryption and a global network of servers ensure your online
-              activities stay private and secure.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section id="services">
-        <div>
-          <h2>Our Services</h2>
-        </div>
-      </section>
-
-      <section>
-        <div class="container">
-          <div class="card">
-            <h3>One click to a safer internet</h3>
-            <p>
-              Strong encryption and a global network of servers ensure your online
-              activities stay private and secure.
-            </p>
-          </div>
-
-          <div class="card">
-            <h3>Unlimited bandwidth and no data limits</h3>
-            <p>
-              ExpressVPN's unlimited bandwidth and data allowance means you can
-              stream, download, and game without worrying about your data usage.
-            </p>
-          </div>
-
-          <div class="card">
-            <h3>30-day money-back guarantee</h3>
-            <p>
-              If you're not satisfied with ExpressVPN, you can get a full refund
-              within the first 30 days of your subscription.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section id="team">
-        <div>
-          <h2>Our Team Members</h2>
-        </div>
-      </section>
-
-      <section>
-        <div class="container">
-          <div class="card">
-            <img class="team-member" src="./assets/p1.jpg" alt="picture-1">
-            <h3>Dil Nawaz Khan</h3>
-            <p>
-              Social Media Designer
-            </p>
-            <p>
-              Dil Nawaz is a creative designer with a passion for creating stunning visual experiences.
-            </p>
-          </div>
-
-          <div class="card">
-            <img src="./assets/p2.jpg" alt="picture-2">
-            <h3>Ahsan Ali</h3>
-            <p>
-              Photoshop Expert
-            </p>
-            <p>
-              Ahsan is a creative designer with a passion for creating stunning visual experiences.
-            </p>
-          </div>
-
-          <div class="card">
-            <img class="team-member" src="./assets/p3.jpg" alt="picture-3">
-            <h3>Sayyam Nadeem</h3>
-            <p>
-              Photographer
-            </p>
-            <p>
-              Sayyam is a creative designer with a passion for creating stunning visual experiences.
-            </p>
-          </div>
-        </div>
-      </section> -->
-
-    <!-- <section id="price">
-      <div>
-        <h2>Pricing</h2>
-      </div>
-    </section>
-
-    <section>
-      <div class="container">
-        <div class="card">
-          <img class="team-member" src="./assets/p1.jpg" alt="picture-1">
-          <h3>Bronze</h3>
-          <p>
-            $10
-          </p>
-          <p>
-            Includes
-          </p>
-        </div>
-
-        <div class="card">
-          <img src="./assets/p2.jpg" alt="picture-2">
-          <h3>Silver</h3>
-          <p>
-            $25
-          </p>
-          <p>
-            Includes
-          </p>
-        </div>
-
-        <div class="card">
-          <img class="team-member" src="./assets/p3.jpg" alt="picture-3">
-          <h3>Gold</h3>
-          <p>
-            $50
-          </p>
-          <p>
-            Includes
-          </p>
-        </div>
-      </div>
-    </section> -->
-
-      <h1 class="main__heading">Pricing</h1>
+      <!-- Pricing section  -->
+      <h1 id="price" class="main__heading">Pricing</h1>
       <div class="main__cards cards">
         <div class="cards__inner">
-          <div class="cards__card card">
+          <!-- Cards  -->
+          <div class="card">
             <h2 class="card__heading">Basic</h2>
             <p class="card__price">$9.99</p>
+            <p>The Basic Plan is designed for businesses looking for essential IT services to keep their systems running smoothly. This plan includes:</p>
             <ul role="list" class="card__bullets flow">
-              <li>Access to standard workouts and nutrition plans</li>
-              <li>Email support</li>
+              <li>24/7 Monitoring</li>
+              <li>Remote Support</li>
+              <li>Email Support</li>
+              <li>Regular Updates</li>
             </ul>
             <a href="#basic" class="card__cta cta">Get Started</a>
           </div>
     
-          <div class="cards__card card">
+          <div class="card">
             <h2 class="card__heading">Pro</h2>
             <p class="card__price">$19.99</p>
+            <p>For businesses that demand more robust IT support and security, the Pro Plan is the ideal choice. This plan includes all features of the Basic Plan, plus:</p>
             <ul role="list" class="card__bullets flow">
-              <li>Access to advanced workouts and nutrition plans</li>
+              <li>On-Site Support</li>
               <li>Priority Email support</li>
-              <li>Exclusive access to live Q&A sessions</li>
+              <li>Enhanced Security</li>
+              <li>System Optimization</li>
             </ul>
             <a href="#pro" class="card__cta cta">Upgrade to Pro</a>
           </div>
     
-          <div class="cards__card card">
+          <div class="card">
             <h2 class="card__heading">Ultimate</h2>
             <p class="card__price">$29.99</p>
+            <p>Our Ultimate Plan is tailored for businesses with complex IT needs and a strong focus on security and performance. It includes all the features of the Basic and Pro Plans, and additionally:</p>
             <ul role="list" class="card__bullets flow">
-              <li>Access to all premium workouts and nutrition plans</li>
+              <li>Customized Solutions</li>
               <li>24/7 Priority support</li>
-              <li>1-on-1 virtual coaching session every month</li>
-              <li>Exclusive content and early access to new features</li>
+              <li>Regular Strategy Meetings</li>
             </ul>
             <a href="#ultimate" class="card__cta cta">Go Ultimate</a>
           </div>
+          <div id="last">
+            <p >Whether you choose the Basic, Pro, or Ultimate Plan, WebWise is dedicated to providing top-quality IT services to meet your unique needs.
+            <br> 
+            Contact us today to discuss your options and find the plan that's right for your business.</p>
+          </div>
+          
         </div>
         <div class="overlay cards__inner"></div>
       </div>
@@ -267,7 +172,8 @@
 
     <!-- Footer  -->
     <footer class="footer">
-      <a href="#" id="toTopBtn"><i class="fa fa-arrow-up"></i><a>
+      <!-- <a href="#" id="toTopBtn"><i id="up-arrow"></i><a> -->
+      <a href="#home" class="up-arrow-link">Top</a>
       <p>© 2023 WebWise. All rights reserved.</p>
     </footer>
 

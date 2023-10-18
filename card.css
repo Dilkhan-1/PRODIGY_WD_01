@@ -15,7 +15,6 @@ body {
 }
 
 body {
-  /* display: grid; */
   align-items: center;
   place-items: center;
   font-family: "League Spartan", system-ui, sans-serif;
@@ -52,6 +51,7 @@ ul {
 
 .cards {
   position: relative;
+  margin-bottom: 60px;
 }
 
 .cards__inner {
@@ -91,6 +91,18 @@ ul {
   --hue: 338.69;
   --saturation: 100%;
   --lightness: 48.04%;
+}
+
+.card:nth-child(4) {
+  --hue: 165;
+  --saturation: 82.26%;
+  --lightness: 51.37%;
+}
+
+.card:nth-child(5) {
+  --hue: 291.34;
+  --saturation: 95.9%;
+  --lightness: 61.76%;
 }
 
 .card__bullets {
