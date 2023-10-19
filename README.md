@@ -15,7 +15,8 @@ A simple landing page for **WebWise**, showcasing their About Us, Services, Pric
 
 ## Demo
 
-Live github-website is here: [WebWise]([https://www.webwisecompany.com](https://dilkhan-1.github.io/PRODIGY_WD_01/)) , link to it here. Screenshots of the **WebWise** landing page are following: 
+Live github-website is here: ![WebWise]([https://www.webwisecompany.com](https://dilkhan-1.github.io/PRODIGY_WD_01/))
+Screenshots of the **WebWise** landing page are following: 
 
 ![WebWise Landing Page](./assets/ss.png)
 ![WebWise About Us](./assets/about.png)
