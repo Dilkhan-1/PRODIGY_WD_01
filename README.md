@@ -21,6 +21,7 @@ Live github-website here: , link to it here. Screenshots of the **WebWise** land
 ![WebWise About Us](./assets/about.png)
 ![WebWise Service](./assets/services.png)
 ![WebWise Pricing](./assets/pricing.png)
+![WebWise Footer](./assets/footer.png)
 
 ## Features
 
