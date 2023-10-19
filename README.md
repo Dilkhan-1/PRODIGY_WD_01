@@ -4,7 +4,7 @@ Welcome to the README for the **WebWise Landing Page** which is the Task-1 of my
 
 ## Introduction
 
-A simple, responsive landing page for **WebWise**, showcasing their About Us, Services, Pricing and Contact button.
+A simple landing page for **WebWise**, showcasing their About Us, Services, Pricing and Contact button.
 
 ## Table of Contents
 
@@ -15,9 +15,12 @@ A simple, responsive landing page for **WebWise**, showcasing their About Us, Se
 
 ## Demo
 
-Include a live demo or screenshots of your landing page to give users a quick preview of what to expect. If you have a live website, link to it here.
+Live github-website here: , link to it here. Screenshots of the **WebWise** landing page are following: 
 
 ![WebWise Landing Page](./assets/ss.png)
+![WebWise About Us](./assets/about.png)
+![WebWise Service](./assets/services.png)
+![WebWise Pricing](./assets/pricing.png)
 
 ## Features
 
